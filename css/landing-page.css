@@ -3,7 +3,28 @@ html {
     width: 100%;
     height: 100%;
 }
+.espacio-arriba{
+    padding-top: 40px;
+}
+.padings{
+ text-align: center;
 
+}
+.frame{
+
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+
+}
+.frame iframe{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100% !important;
+   height: 100% !important;
+}
 body,
 h1,
 h2,
